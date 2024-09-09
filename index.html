@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento, indicando que se trata de um documento HTML5. -->
+<html lang="pt - br"> <!--Raiz do documento HTML, definindo o idioma como português do Brasil. -->
+
+<head> <!--Contém metadados sobre o documento, como o conjunto de caracteres, configuração da viewport e links para arquivos externos (CSS). -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> CAMEPS </title> <!--mecanismos de busca -->
+</head>
+
+<body> <!--Contém o conteúdo visível da página.-->
+    <header> <!--<header>, <main>, <footer>: Representam as seções principais de uma página HTML5 (cabeçalho, conteúdo principal e rodapé).-->
+        <h1> CAMPES</h1> <!--Define um título de nível 1.-->
+    </header>
+    <main>
+        <section><!--Define uma seção genérica dentro do conteúdo.-->
+            <input type="text" placeholder="Digite sua busca"id = "campo-pesquisa"> <!-- Cria um campo de entrada para o usuário.-->
+            <button onclick="pesquisar()">Pesquisar</button> <!-- Cria um botão.-->
+        </section>
+        <section class="resultados-pesquisa"
+        id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p> 2024 - CAMPES .</p>
+        <p>Capacitação e Apoio  a Micro  e Pequenos Empreendedores Salgueirense. </p></p>  <!--Define um parágrafo.-->
+        <p> Vislaine Matias Nunes.</p>
+    </footer>
+    <script src="dados.js"></script> <!--Define um parágrafo.-->
+    <script src="app.js"></script>
+</body>
+
+</html>
